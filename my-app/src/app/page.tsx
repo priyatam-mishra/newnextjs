@@ -4,7 +4,8 @@ export default function page() {
   return (
     <>
 
-    <div className="form">
+    <div className="formbi">
+      <div className="form">
       <form action="">
       <label className='label'  htmlFor="">name::</label>
       <input required type="text" />
@@ -17,7 +18,11 @@ export default function page() {
     </form>
   
     </div>
- <div className="aas"></div>
+ <div className="aas mover">
+ </div>
+<div className="aas1 mover">
+ </div>
+    </div>
  
     </>
 
