@@ -1,0 +1,47 @@
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    border: 2px solid #010101;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(245, 245, 245, 0.136);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: auto;
+    margin-top: 10%;
+    backdrop-filter: blur(15px);
+}
+
+:root {
+    background: url(../asset/image/cyberpunk01.jpg);
+    background-attachment: fixed;
+}
+
+.form input {
+    background: rgba(245, 245, 245, 0.477);
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.submit {
+    padding: 10px;
+}
+
+.form input:hover {
+    background: rgba(255, 0, 0, 0.321);
+}
+
+.aas {
+    position: absolute;
+    --w: 400px;
+    width: var(--w);
+    height: calc(var(--w)*1.2);
+    background: red;
+}
