@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function page() {
   return (
     <>
@@ -7,13 +6,13 @@ export default function page() {
     <div className="formbi">
       <div className="form">
       <form action="">
-      <label className='label'  htmlFor="">name::</label>
-      <input required type="text" />
-      <label className='label'  htmlFor="">email::</label>
-      <input required type="email" />
-      <label className='label' htmlFor="">password::</label>
-      <input required type="password" />
-      <input className='submit' type="submit" />
+      <label htmlFor="">name::</label>
+      <input className='label'  required type="text" />
+      <label htmlFor="">email::</label>
+      <input className='label'  required type="email" />
+      <label htmlFor="">password::</label>
+      <input  className='label'  required type="password" />
+      <input className='sbmit' type="submit" />
 
     </form>
   
@@ -23,7 +22,6 @@ export default function page() {
 <div className="aas1 mover">
  </div>
     </div>
- 
     </>
 
   )
